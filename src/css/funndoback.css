@@ -1,0 +1,27 @@
+#fundo{
+    -fx-background-radius: 20px;
+    -fx-background-image: url("/img/sobre-background.jpg");
+    
+    
+}
+.fundo{
+    -fx-background-radius: 20px;
+    -fx-background-image: url("/img/sobre-background.jpg");
+    
+    
+}
+
+#menu{
+    
+    -fx-background-image: url("/img/body-background.png");
+    
+}
+.menu{
+    
+    -fx-background-image: url("/img/body-background.png");
+    
+}
+
+
+
+

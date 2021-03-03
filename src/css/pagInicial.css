@@ -1,0 +1,31 @@
+#title{
+    -fx-font-family:  "Elephant";
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    
+}
+#subTitle{
+    -fx-font-family:  "Elephant";
+    -fx-font-size: 15px;
+    -fx-text-fill:  white;
+}
+.label{
+       -fx-font-family:  "Modern No. 20";
+       -fx-font-size: 16px;
+      
+}
+#entrar{
+    
+    -fx-background-color: #1e556f;
+    -fx-text-fill: white;
+    -fx-font-family: "Modern No. 20";
+    -fx-font-size: 25px;
+    -fx-background-radius:  0px 100px 0px 100px;
+}
+#entrar:hover{
+   -fx-background-color:  cadetblue; 
+}
+.StackPane{
+    -fx-background-image: url("../img/body-background.png");
+}

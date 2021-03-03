@@ -1,0 +1,30 @@
+#janela{
+
+   -fx-background-image: url("/img/fundo3.jpg");
+  
+  
+  
+}  
+
+#cabeca{
+    
+    /*-fx-background-image: url("/img/sobre-background.jpg");*/
+    -fx-background-color: #333;
+}
+
+#fundo{
+    
+    -fx-background-image: url("/img/body-background.png");
+}
+.fundo{
+    
+    -fx-background-image: url("/img/body-background.png");
+}
+#menu{
+   /* -fx-background-color: d7d7d4; */
+   /* -fx-background-image: url(../img/vinceza.jpg);*/
+  
+}
+#border{
+    -fx-border-color: #444994;
+}

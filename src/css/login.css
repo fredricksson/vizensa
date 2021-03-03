@@ -1,0 +1,44 @@
+#title{
+    -fx-font-family:  "Elephant";
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    
+}
+.label{
+      -fx-font-family:  "Georgia";
+       -fx-font-size: 14px;
+       -fx-font-weight: bold;
+        -fx-text-fill: #E4EFF1;
+}
+.text-field{
+     -fx-background-color: transparent;
+    -fx-border-color:  #fff;
+    -fx-border-width: 0 0 2 0;
+    -fx-font-weight: 700;
+      -fx-text-fill: #E4EFF1;
+    -fx-font-family:"Times New Roman";
+    -fx-font-size: 16px;
+    
+}
+.button{
+      -fx-background-color: #5495A0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family:  "Modern No. 20";
+    -fx-font-size: 18px;
+}
+#user{
+    
+    -fx-background-image: url("../img/icons8-nome-usuario.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+   -fx-background-size: 30px;
+}
+#pass{
+    
+    -fx-background-image: url("../img/icons8-nome-senha.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+   -fx-background-size: 30px;
+}

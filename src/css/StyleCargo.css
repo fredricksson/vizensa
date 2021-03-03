@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2020, 12:05:26 AM
+    Author     : doroteia
+*/
+
+.text-field{
+    -fx-border-color: blue;
+    -fx-border-width: 0 0 2 0;
+    -fx-background-color: transparent;
+    -fx-font-size: 20px;
+    -fx-font-family: "Modern No. 20";
+    -fx-font-weight: 800;
+}
+.header{
+    -fx-background-color: #333;
+}
+.title{
+    -fx-text-fill: #fff;
+    -fx-font-family:"Arial Black";
+     -fx-font-size: 20px;
+}
+.button{
+    -fx-background-color:  transparent;
+     -fx-border-color: blue;
+    -fx-text-fill: #333;
+    -fx-font-family: "Modern No. 20";
+     -fx-font-size: 18px;
+     
+}
+
+.msg{
+    -fx-text-fill: #fff;
+     -fx-background-color: red;
+     -fx-font-size: 18px;
+    
+}
+.msg_succ{
+     -fx-text-fill: #fff;
+     -fx-background-color: blue;
+     -fx-font-size: 18px;
+}
+.existente{
+     -fx-text-fill: #fff;
+     -fx-background-color: red;
+     -fx-font-size: 18px;
+    
+}

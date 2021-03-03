@@ -1,0 +1,155 @@
+
+
+.background{
+    -fx-background-image: url("../img/body-background.png");
+
+}
+.background2{
+    -fx-background-image: url("../img/fundo-rodape.png");
+
+}
+
+.corHeader{
+    -fx-background-color: whitesmoke;
+}
+.title{
+    -fx-font-family:  "Arial Black";
+    -fx-font-size: 30px;
+    -fx-text-fill:  black;
+  
+}
+.body{
+ -fx-background-color: #F1EBE4;   
+}
+.title2{
+    -fx-font-family:  "Arial Black";
+    -fx-font-size: 25px;
+    -fx-text-fill:  blue;
+   
+}
+.title3{
+    -fx-font-family:  "Arial Black";
+    -fx-font-size: 25px;
+    -fx-text-fill:  black;
+   
+}
+.title3Roman{
+    -fx-font-family:  "Times New Roman";
+    -fx-font-size: 25px;
+    -fx-text-fill:  black;
+   
+}
+.title4{
+    -fx-font-family:  "Arial Black";
+    -fx-font-size: 20px;
+    -fx-text-fill:  #333;
+   
+}
+.table-view .column-header .label {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Modern No. 20";
+     -fx-text-fill: #fff;
+    -fx-alignment: center;
+    -fx-opacity: 1;
+  -fx-border-width: 0px;
+}
+.table-column{
+    
+    -fx-font-size: 25px;
+}
+.table-view .column-header, .table-view .filler {
+   -fx-size: 55;
+    -fx-border-width: 0 0.2 0.2 0; 
+     
+   -fx-background-color: transparent;
+ -fx-border-color: #917050;
+  -fx-background-color:  #333;
+
+   
+  
+}
+
+.button{
+    -fx-font-weight: bold;
+    -fx-font-family:"Bell Mt";
+    -fx-font-size: 16px;
+   
+
+}
+#text-field{
+    -fx-background-image: url("../img/pes.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25;
+    -fx-background-position: right 7  ;
+    
+    
+}
+
+
+#background{
+    -fx-background-color: #333;
+}
+#title{
+    -fx-font-family:  "Bell Mt";
+    -fx-font-size: 30px;
+    -fx-text-fill:  white;
+  
+}
+
+.TimesNewRoman{
+     -fx-font-family:  "Times New Roman";
+}
+.radius{
+    
+    -fx-background-radius: 10px;
+}
+.combo-box{
+    -fx-background-color: transparent;
+    -fx-border-color: #003333;
+    -fx-font-size:18px;
+    -fx-text-fill:  black; 
+      -fx-font-family:  "Times New Roman";
+}
+.header{
+    
+    -fx-background-color: #917050;
+     -fx-background-radius: 15;
+      -fx-background-image: url("../img/icons8-macbook-money-100.png");
+   -fx-background-repeat: no-repeat;
+   -fx-background-size: 40px;
+   -fx-background-position: left;
+}
+
+.text-field{
+    
+    -fx-background-color: transparent;
+    -fx-border-color: #94734C;
+    -fx-border-width:  0 0 2 0;
+    -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: 700;
+}
+.combo-box{
+    
+    -fx-background-color: transparent;
+    -fx-border-color: #94734C;
+    -fx-border-width:  0 0 2 0;
+}
+.label{
+    
+    -fx-text-fill:  #0D0A07;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15px;
+}
+.buttonPagar{
+    
+    -fx-background-color: cadetblue;
+    
+    -fx-text-fill:  #fff;;
+   
+}
+#nome{
+     -fx-text-fill:  #F8F5F2;
+    -fx-font-family: "Modern No. 20";
+    -fx-font-size: 20px;
+}

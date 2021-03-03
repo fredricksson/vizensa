@@ -1,0 +1,45 @@
+#cadastrar{
+    -fx-background-color: #006699;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-family:  "Modern No. 20";
+    -fx-font-size: 16px;
+}
+#foto{
+    -fx-border-color: black;
+    -fx-background-color: transparent;
+    -fx-border-radius: 0px 0px 20px 0px;
+}
+#foto:hover{
+    -fx-background-color: azure;
+}
+.label{
+    -fx-font-family:  "Imprint MT Shadow";
+    -fx-font-size: 14px;
+}
+#vbox{
+    -fx-border-color: aqua;
+     -fx-border-width: 1px;
+    
+}
+#empNome{
+    -fx-background-image: url("/img/icons8-companhia-50.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+   -fx-background-size: 25px;
+   
+}
+#empTel{
+    -fx-background-image: url("/img/icons8-telefone.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+   -fx-background-size: 25px;
+   
+}
+#empEmail{
+    -fx-background-image: url("/img/icons8-e-mail.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left;
+   -fx-background-size: 25px;
+   
+}

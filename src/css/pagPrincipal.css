@@ -1,0 +1,24 @@
+.a{
+    -fx-background-image: url("../img/fundo-rodape.png");
+}
+.StackPane{
+    -fx-background-image: url("../img/body-background.png");
+}
+.button{
+   
+   
+    -fx-background-radius:  400px 0px 400px 0px;
+    -fx-font-family: "Elephant";
+    -fx-font-size: 20px;
+    -fx-background-color: #1e556f;
+    -fx-text-fill: white;
+
+}
+.time{
+   -fx-font-family: "Imprint MT Shadow";
+    -fx-text-fill: white;
+     -fx-font-size: 30px;
+}
+.bordar{
+    -fx-border-color: coral;
+}

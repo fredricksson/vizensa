@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="259.0" prefWidth="600.0" stylesheets="@../../../css/StyleCargo.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mz.sgv.controller.NovoCargoController">
+   <children>
+      <TextField fx:id="cargo" alignment="CENTER" focusTraversable="false" layoutX="108.0" layoutY="113.0" onAction="#save" prefHeight="43.0" prefWidth="393.0" promptText="Insira novo Cargo" />
+      <StackPane layoutX="48.0" layoutY="-15.0" prefHeight="60.0" prefWidth="600.0" styleClass="header" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label styleClass="title" text="Nova Categoria" />
+         </children>
+      </StackPane>
+      <Button layoutX="108.0" layoutY="171.0" mnemonicParsing="false" onAction="#save" prefHeight="29.0" prefWidth="196.0" text="Adicionar" />
+      <Label fx:id="msg_erro" contentDisplay="RIGHT" layoutX="108.0" layoutY="90.0" styleClass="msg" text="Campo Vazio!">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/delete.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="sucedido" contentDisplay="RIGHT" layoutX="108.0" layoutY="90.0" styleClass="msg_succ" text="Registado com sucesso!">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/check_1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="existente" contentDisplay="RIGHT" layoutX="108.0" layoutY="90.0" styleClass="existente" text="Cargo existente!">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/delete.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+   </children>
+</AnchorPane>
