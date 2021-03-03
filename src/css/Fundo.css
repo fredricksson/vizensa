@@ -1,0 +1,10 @@
+
+.header_medicamentos{
+    
+    -fx-background-image: url("/img/farmacia.jpg");
+}
+
+.imagemCaixa{
+     -fx-background-image: url("/img/fotop.jpg");
+}
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="569.0" prefWidth="564.0" style="-fx-background-color: #55efef;;" styleClass="fundo" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TrocarSenhaController">
+   <children>
+      <TextField alignment="CENTER" focusTraversable="false" layoutX="66.0" layoutY="261.0" prefHeight="47.0" prefWidth="446.0" promptText="CONFIRMAR NOVA SENHA" styleClass="trocarSenha_textFields">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </TextField>
+      <TextField alignment="CENTER" focusTraversable="false" layoutX="66.0" layoutY="199.0" prefHeight="47.0" prefWidth="446.0" promptText="NOVA SENHA" styleClass="trocarSenha_textFields">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </TextField>
+      <Button alignment="CENTER" layoutX="66.0" layoutY="345.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="446.0" styleClass="trocarSenha_bOtoes" text="CONFIRMAR" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="66.0" layoutY="427.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="446.0" style="-fx-background-color: #e60000;" styleClass="trocarSenha_bOtoes" text="CANCELAR" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField alignment="CENTER" focusTraversable="false" layoutX="66.0" layoutY="121.0" prefHeight="47.0" prefWidth="446.0" promptText="SENHA ACTUAL" styleClass="trocarSenha_textFields">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="52.0" radius="26.0" width="54.0" />
+         </effect>
+      </TextField>
+      <Label layoutX="180.0" layoutY="61.0" prefHeight="35.0" prefWidth="204.0" text="TROCAR SENHA" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+   </children>
+   <stylesheets>
+      <URL value="@../estilo.css" />
+      <URL value="@../css/estilo.css" />
+   </stylesheets>
+</AnchorPane>

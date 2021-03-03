@@ -1,0 +1,85 @@
+.textfield{
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #0327b7;
+}
+.botaoCima_menu{
+    
+    -fx-background-color: #fff;
+    -fx-text-fill: #0327b7;
+}
+
+.botaoBaixo_menu{
+    -fx-background-color: #27b4f4;
+    -fx-text-fill: #fff;
+    
+}
+
+.fundo{
+    -fx-background-image: url("/img/sobre-background.jpg");
+}
+.labels{
+    -fx-letter-spacing: 3px;
+}
+
+.trocarSenha_textFields{
+    -fx-text-fill:#ffffff;
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 3 0;
+    -fx-border-color:#636e72;
+    -fx-background-image: url("/icons/lock.png");
+    -fx-background-repeat:no-repeat;
+    
+}
+.trocarSenha_bOtoes{
+      -fx-background-color: transparent;
+    -fx-border-width: 2 2 2 2;
+    -fx-border-color:#636e72; 
+    
+}
+.textfield_produtos{
+     -fx-background-color:  transparent;
+     -fx-border-width: 1 1 1 1;
+     -fx-border-color: #fff;
+    
+}
+
+.botao_produtos{
+    -fx-text-fill: #55efef;
+    -fx-background-color:#fff;
+
+}
+.botao_produtos:hover{
+    -fx-background-color:#55efef;
+    -fx-text-fill: #fff;
+}
+
+.botao_produtosc{
+    -fx-text-fill: #fff;
+    -fx-background-color:#00cec9;
+
+}
+.botao_produtosc:hover{
+    -fx-background-color:#55efef;
+    -fx-text-fill: #fff;
+}
+
+.pequisar_produto{
+    -fx-background-radius: 100;
+    -fx-border-radius: 20;
+    -fx-border-color:  #55efef;
+}
+
+.AdicionarIcon{
+    -fx-text-fill: #55efef;
+    -fx-background-color:#fffefe;
+    -fx-background-image: url("/img/adicionar.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 48px;
+    -fx-padding: 0 0 0 10px;
+}
+.imagemCaixa{
+     -fx-background-image: url("/img/farmacia4.png");
+}
+
+
+

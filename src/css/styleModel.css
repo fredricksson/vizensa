@@ -1,0 +1,142 @@
+.background {
+    -fx-background-color: #333;
+}
+
+/* .buttonSave {
+    -fx-font-weight: bold;
+    -fx-background-color:#32CD32;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.buttonEdit {
+    -fx-background-color: #FF8000;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}*/
+#buttonEdit {
+    
+   
+    -fx-background-color: #FF8000;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+/*
+.buttonRemove {
+   
+    -fx-background-color:#e60000;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+*/
+#buttonRemove {
+    
+    -fx-background-color:#e60000;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+/*
+.buttonConclude {
+    -fx-font-weight: bold;
+    -fx-background-color:#1E90FF;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+*/
+.backgroundHboxWhite {
+    -fx-background-color: #fff;
+    -fx-background-radius: 5,4,3,5;
+}
+
+.backgroundHbox {
+    -fx-background-color: #36b8ee;
+    -fx-background-radius: 5,4,3,5;
+}
+
+.backgroundHbox2{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5,4,3,5;
+}
+
+#table-view .table-column {
+    -fx-alignment: CENTER;
+}
+
+
+.label{
+    -fx-font-family: System ;
+    -fx-font-size: 15px;
+    -fx-font-weight:bold;
+ 
+}
+
+
+.labelTitle{
+    -fx-font-family: System ;
+    -fx-font-size: 45px;
+    -fx-font-weight:bold;
+}
+.labelTitleWhite{
+    -fx-font-family: System ;
+    -fx-font-size: 45px;
+    -fx-font-weight:bold;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Black";
+}
+.text-field{
+    -fx-background-image: url("../img/pes.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25;
+    -fx-background-position: right 7  ;
+}
+.combo-box{
+
+    -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman";
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Modern No. 20";
+    -fx-text-fill: black;
+    -fx-alignment: center;
+    -fx-opacity: 1;
+    -fx-border-width: 0px;
+      
+
+}
+.table-view .column-header {
+  
+     -fx-background-color:  #55efef;
+}
+
+.table-view {
+    -fx-background-radius: 50px;
+    
+}
+.table-column{
+    -fx-alignment: center;
+    -fx-font-size: 25px;
+}
+
+.button{
+    -fx-font-family:"Bell Mt";
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+.buttonArial{
+    -fx-font-family:"Times New Roman";
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+
+}
+.button:hover{
+    -fx-scale-x: 1.01;
+    -fx-scale-y: 1.2;
+}
