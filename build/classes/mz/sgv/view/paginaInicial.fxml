@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="janela" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mz.sgv.controller.PaginaInicialController">
+   <children>
+      <AnchorPane maxHeight="200.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1e556f;" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" top="30.0" />
+         </VBox.margin>
+         <children>
+            <Label fx:id="title" layoutX="62.0" layoutY="44.0" text="Bem vindo ao gerenciador de lojas G.1" />
+            <Label fx:id="subTitle" layoutX="62.0" layoutY="83.0" text="Controle seu Stock,vendas, funcionarios, produtos e muito mais!" />
+            <Hyperlink layoutX="62.0" layoutY="138.0" onAction="#OnActionCriarConta" prefHeight="29.0" prefWidth="220.0" style="-fx-font-size: 15; -fx-background-color: white;" text="Crie já sua conta Administrador" />
+         </children>
+      </AnchorPane>
+      <StackPane prefHeight="370.0" prefWidth="940.0">
+         <children>
+            <Button fx:id="entrar" mnemonicParsing="false" onAction="#onClickEntrar" prefHeight="86.0" prefWidth="293.0" text="Entrar" />
+         </children>
+      </StackPane>
+   </children>
+   <styleClass>
+      <String fx:value="label" />
+      <String fx:value="StackPane" />
+   </styleClass>
+   <stylesheets>
+      <URL value="@../../../css/pagInicial.css" />
+      <URL value="@../../../css/backgroundImagens.css" />
+   </stylesheets>
+</VBox>

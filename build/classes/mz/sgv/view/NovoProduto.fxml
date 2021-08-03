@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="janela" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" styleClass="body" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mz.sgv.controller.NovoProdutoController">
+   <children>
+      <StackPane prefHeight="52.0" prefWidth="900.0" styleClass="header">
+         <children>
+            <Label prefHeight="39.0" prefWidth="155.0" styleClass="titulo" text="Novo Produto">
+               <padding>
+                  <Insets left="30.0" />
+               </padding></Label>
+         </children>
+      </StackPane>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: black; -fx-border-width: 0.2;">
+         <children>
+            <ImageView fx:id="foto" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#addImage" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../img/image.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox prefHeight="200.0" prefWidth="100.0" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+               <children>
+                  <Label fx:id="labelCodigo" text="Codigo de Produto:">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="codigo" alignment="CENTER" prefHeight="35.0" prefWidth="630.0" promptText="Insira o codigo do produto" style="-fx-background-image: null;">
+                     <VBox.margin>
+                        <Insets left="10.0" right="30.0" top="3.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label fx:id="labelNome" layoutX="20.0" layoutY="10.0" text="Nome do Produto:">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="nome" alignment="CENTER" layoutX="20.0" layoutY="34.0" prefHeight="35.0" prefWidth="630.0" promptText="Insira o nome do produto " style="-fx-background-image: null;">
+                     <VBox.margin>
+                        <Insets left="10.0" right="30.0" top="3.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox maxHeight="173.0" minHeight="160.0" prefHeight="173.0" prefWidth="840.0" style="-fx-border-color: #271F16; -fx-border-width: 0.2;">
+         <children>
+            <VBox maxHeight="172.0" prefHeight="172.0" prefWidth="420.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label fx:id="labelCor" text="Cor do produto:">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ColorPicker fx:id="cor" maxHeight="40.0" minHeight="40.0" prefHeight="40.0" prefWidth="379.0">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </ColorPicker>
+                  <Label fx:id="labelPreco" layoutX="20.0" layoutY="20.0" text="Preço(mts)">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="preco" alignment="CENTER" prefHeight="37.0" prefWidth="389.0" promptText="insira o preco">
+                     <VBox.margin>
+                        <Insets bottom="3.0" left="10.0" right="40.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+            <VBox maxHeight="177.0" prefHeight="177.0" prefWidth="405.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label fx:id="labelTamanho" text="Tamanhos:">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="49.0" prefWidth="420.0">
+                     <children>
+                        <TextField fx:id="tamanhos" alignment="CENTER" editable="false" onMouseClicked="#addTamanh" prefHeight="41.0" prefWidth="325.0" promptText="insira tamanho/s" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="-1.0" right="30.0" top="10.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <Label fx:id="labelQuantidade" text="Quantidades:">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="49.0" prefWidth="420.0">
+                     <children>
+                        <TextField fx:id="quantidade" alignment="CENTER" editable="false" onMouseClicked="#addQuantidaMouseClicked" prefHeight="37.0" prefWidth="307.0" promptText="insira quantidade/s" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="-1.0" right="30.0" top="-3.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <VBox prefHeight="69.0" prefWidth="840.0" style="-fx-border-color: black; -fx-border-width: 0.2;">
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" top="10.0" />
+         </VBox.margin>
+         <children>
+            <HBox prefHeight="77.0" prefWidth="840.0">
+               <children>
+                  <ComboBox fx:id="Combocategoria" prefHeight="39.0" prefWidth="357.0" promptText="Categoria">
+                     <HBox.margin>
+                        <Insets left="10.0" top="11.0" />
+                     </HBox.margin>
+                  </ComboBox>
+                  <Button maxHeight="40.0" minHeight="30.0" mnemonicParsing="false" onAction="#addCategoria" prefHeight="30.0" prefWidth="61.0" styleClass="addCategoria">
+                     <graphic>
+                        <ImageView fitHeight="18.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../img/add.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets top="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" onAction="#salvar" prefHeight="41.0" prefWidth="275.0" styleClass="addCategoria" text="Salvar">
+         <VBox.margin>
+            <Insets left="595.0" top="10.0" />
+         </VBox.margin>
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/icons8-guardar-todos-60.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label style="-fx-text-fill: #917050; -fx-font-weight: 800;" text="NB: As quantidades devem ser adicionadas respectivamente aos produtos!" underline="true">
+         <VBox.margin>
+            <Insets left="30.0" top="10.0" />
+         </VBox.margin>
+      </Label>
+   </children>
+   <stylesheets>
+      <URL value="@../../../css/styleModel.css" />
+      <URL value="@../../../css/funndoback.css" />
+   </stylesheets>
+</VBox>

@@ -1,0 +1,238 @@
+.background {
+    -fx-background-color: #333;
+}
+
+.buttonSave {
+    -fx-font-weight: bold;
+    -fx-background-color:#50402A;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+.addCategoria {
+    -fx-font-weight: bold;
+    -fx-background-color:#917050;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+#buttonSave {
+    -fx-font-weight: bold;
+    -fx-background-color:#32CD32;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.buttonEdit {
+    -fx-background-color: #FF8000;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+#buttonFunc {
+    -fx-background-color: #333;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-font-size: 12px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+#buttonEdit {
+    
+   
+    -fx-background-color: #FF8000;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.buttonRemove {
+   
+    -fx-background-color:#e60000;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+#buttonRemove {
+    
+    -fx-background-color:#e60000;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.buttonConclude {
+    -fx-font-weight: bold;
+    -fx-background-color:#AB8B5F;
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+.backgroundHboxWhite {
+    -fx-background-color: #fff;
+    -fx-background-radius: 5,4,3,5;
+}
+
+.backgroundHbox {
+    -fx-background-color: #36b8ee;
+    -fx-background-radius: 5,4,3,5;
+}
+
+.backgroundHbox2{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5,4,3,5;
+}
+
+#table-view .table-column {
+    -fx-alignment: CENTER;
+}
+
+
+
+
+.labelTitle{
+    -fx-font-family: System ;
+    -fx-font-size: 45px;
+    -fx-font-weight:bold;
+}
+#labelTitleWhite{
+    -fx-font-family: System ;
+    -fx-font-size: 45px;
+    -fx-font-weight:bold;
+    -fx-text-fill: white;
+    -fx-font-family: "Bell Mt";
+}
+.pesquisa{
+    -fx-background-image: url("../img/pes.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 25;
+    -fx-background-position: right 7  ;
+}
+.combo-box{
+
+    -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman";
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Modern No. 20";
+    -fx-text-fill: #fff;
+    -fx-alignment: center;
+    -fx-opacity: 1;
+    -fx-border-width: 0px;
+ 
+}
+.table-column{
+    -fx-alignment: center;
+    -fx-font-size: 25px;
+
+}
+#cargoTable{
+   -fx-font-weight: BOLD;
+    -fx-alignment: center;
+    -fx-font-size: 25px;
+}
+.table-view .column-header, .table-view .filler {
+   -fx-background-color: #333;
+
+   
+  
+}
+
+.button{
+    -fx-font-family:"Bell Mt";
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}
+.buttonArial{
+    -fx-font-family:"Times New Roman";
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+
+}
+.button:hover{
+    -fx-scale-x: 1.01;
+    -fx-scale-y: 1.2;
+}
+
+.header{
+ -fx-background-color: #917050;   
+}
+
+.body{
+ -fx-background-color: #F1EBE4;   
+}
+.text-field{
+    
+    -fx-background-color: transparent;
+    -fx-border-color: #94734C;
+    -fx-border-width:  0 0 2 0;
+    -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: 700;
+}
+.combo-box{
+    
+    -fx-background-color: transparent;
+    -fx-border-color: #94734C;
+    -fx-border-width:  0 0 2 0;
+}
+
+.label{
+    -fx-text-fill:  #0D0A07;
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 15px;
+}
+
+.titulo{
+   -fx-text-fill: #F8F5F2; 
+   -fx-font-family: "Bell Mt";
+   -fx-font-size: 20px;
+   -fx-background-image: url("../img/icons8-produto-novo-50.png");
+   -fx-background-repeat: no-repeat;
+   -fx-background-size: 25px;
+   -fx-background-position: left;
+}
+.color-picker{
+     -fx-background-color: transparent;
+    -fx-border-color: #94734C;
+    -fx-border-width:  0 0 2 0;
+        -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: 700;
+    
+}
+
+#editProduto{
+    -fx-text-fill: #F8F5F2; 
+   -fx-font-family: "Bell Mt";
+   -fx-font-size: 20px;
+   -fx-background-image: url("../img/icons8-editar-propriedade-50.png");
+   -fx-background-repeat: no-repeat;
+   -fx-background-size: 25px;
+   -fx-background-position: left;
+    
+}
+   #date{
+         -fx-background-color: transparent;
+    -fx-border-color: #94734C;
+    -fx-border-width:  0 0 0 0;
+        -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: 700;
+       
+   }
+   #comboBox{
+         -fx-background-color: transparent;
+    -fx-border-color: #94734C;
+    -fx-border-width: 1;
+        -fx-font-size: 18px;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: 700;
+       
+   }
+   

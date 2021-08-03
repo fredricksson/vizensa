@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="168.0" prefWidth="300.0" stylesheets="@../../../css/styleModel.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mz.sgv.controller.AddTamanhoController">
+   <children>
+      <TextField fx:id="tamanho" alignment="TOP_CENTER" focusTraversable="false" layoutX="57.0" layoutY="59.0" prefHeight="31.0" prefWidth="181.0" promptText="Digite o tamanho" />
+      <Button layoutX="112.0" layoutY="106.0" mnemonicParsing="false" onAction="#addTamanho" prefHeight="25.0" prefWidth="126.0" styleClass="addCategoria" text="Tamanho">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/add.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane prefHeight="40.0" prefWidth="300.0" styleClass="addCategoria" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="43.0" layoutY="9.0" style="-fx-text-fill: #fff;" text="Adiccione varios tamanhos" textFill="#f8f7f7">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #333333;" stylesheets="@../../../css/style_1.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mz.sgv.controller.AutenticarController">
+   <children>
+      <StackPane prefHeight="54.0" prefWidth="600.0">
+         <children>
+            <Label id="title" style="-fx-font-size: 20;" styleClass="column-header" text="Funcionario Autenticavel" />
+         </children>
+      </StackPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 15;" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" />
+         </VBox.margin>
+         <children>
+            <Label layoutX="39.0" layoutY="47.0" style="-fx-font-size: 16; -fx-text-fill: navy;" styleClass="title3Roman" text="Permite que o funcionario possa aceder ao sistema!" />
+            <Label layoutX="39.0" layoutY="14.0" style="-fx-text-fill: navy;" styleClass="title3Roman" text="Funcionario autenticavel?">
+               <effect>
+                  <Glow />
+               </effect>
+            </Label>
+            <Separator layoutY="88.0" prefWidth="540.0" />
+            <ComboBox fx:id="combo_nomeFuncionario" focusTraversable="false" layoutX="38.0" layoutY="134.0" prefHeight="34.0" prefWidth="275.0" promptText="Seleccione o nome" />
+            <Label layoutX="38.0" layoutY="101.0" style="-fx-font-size: 18; -fx-font-weight: bold;" styleClass="title3Roman" text="Nome do funcionario:" />
+            <Separator layoutY="194.0" prefWidth="540.0" />
+            <Button layoutX="25.0" layoutY="237.0" mnemonicParsing="false" onAction="#autenticar" prefHeight="34.0" prefWidth="208.0" style="-fx-background-color: green;" styleClass="radius" text="Autenticar">
+               <effect>
+                  <Glow />
+               </effect>
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/check.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="279.0" layoutY="237.0" mnemonicParsing="false" onAction="#desautenticar" prefHeight="34.0" prefWidth="208.0" style="-fx-background-color: red;" styleClass="radius" text="Desautenticar">
+               <effect>
+                  <Glow />
+               </effect>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="80.0" layoutX="407.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/icons8-company-64.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="50.0" layoutX="313.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../img/icons8-name-64.png" />
+               </image>
+            </ImageView>
+            <Hyperlink layoutX="29.0" layoutY="287.0" text="Lista de funcionarios autenticaveis" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

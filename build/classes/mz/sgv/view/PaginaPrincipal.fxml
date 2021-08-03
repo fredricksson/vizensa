@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane fx:id="janela" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="backgroundHboxWhite" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mz.sgv.controller.PaginaPrincipalController">
+   <children>
+      <HBox prefHeight="30.0" prefWidth="800.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0">
+         <children>
+            <MenuBar id="label" maxHeight="50.0" nodeOrientation="RIGHT_TO_LEFT" style="-fx-background-color: #fff;" HBox.hgrow="ALWAYS">
+              <menus>
+                <Menu id="bordar" mnemonicParsing="false" style="-fx-text-fill: white;" styleClass="pagPrincipal" text="Minha Conta">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Meus dados" />
+                        <MenuItem mnemonicParsing="false" text="Alterar senha" />
+                  </items>
+                </Menu>
+                  <Menu id="bordar" mnemonicParsing="false" styleClass="bordar" text="Empresa">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Info" />
+                        <MenuItem mnemonicParsing="false" text="Alterar dados" />
+                    </items>
+                  </Menu>
+              </menus>
+               <effect>
+                  <Glow />
+               </effect>
+              
+            </MenuBar>
+         </children>
+      </HBox>
+      <StackPane id="fundo" layoutX="120.0" layoutY="156.0" prefHeight="468.0" prefWidth="720.0" stylesheets="@../../../css/funndoback.css" AnchorPane.bottomAnchor="82.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <GridPane id="fundo" fx:id="menu" maxHeight="500.0" maxWidth="720.0" style="-fx-background-color: #00cec9;" stylesheets="@../../../css/funndoback.css">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0">
+                     <children>
+                        <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#caixa" prefHeight="1000.0" prefWidth="1000.0" styleClass="buttonMenu" text="Caixa">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Button>
+                        <ImageView disable="true" fitHeight="150.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../img/cash_register.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="10.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#produtos" prefHeight="1000.0" prefWidth="1000.0" styleClass="buttonMenu" text="Produtos">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="2.0" />
+                           </StackPane.margin>
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Button>
+                        <ImageView disable="true" fitHeight="150.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../img/icons8-movimento-de-estoque-64.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="370.0" layoutY="10.0" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="1">
+                     <children>
+                        <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#vendas" prefHeight="1000.0" prefWidth="1000.0" styleClass="buttonMenu" text="Vendas">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Button>
+                        <ImageView disable="true" fitHeight="150.0" fitWidth="80.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../img/icons8-histórico-de-atividades-100.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="10.0" layoutY="180.0" prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#funcionarios" prefHeight="1000.0" prefWidth="1000.0" styleClass="buttonMenu" text="Funcionarios">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Button>
+                        <ImageView disable="true" fitHeight="150.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../img/func.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </StackPane>
+                  <StackPane layoutX="370.0" layoutY="180.0" prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="2">
+                     <children>
+                        <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#clientes" prefHeight="1000.0" prefWidth="1000.0" styleClass="buttonMenu" text="Clientes">
+                           <StackPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </StackPane.margin>
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Button>
+                        <ImageView disable="true" fitHeight="150.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../img/funcionarios.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </StackPane>
+                  <StackPane maxHeight="181.0" prefHeight="181.0" prefWidth="360.0" style="-fx-background-color: trasnparent;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <Button fx:id="sair" alignment="BOTTOM_LEFT" mnemonicParsing="false" onAction="#sair" prefHeight="154.0" prefWidth="351.0" styleClass="buttonMenu" text="Sair">
+                           <effect>
+                              <Glow />
+                           </effect>
+                        </Button>
+                        <ImageView>
+                           <image>
+                              <Image url="@../../../img/delete.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </StackPane>
+               </children>
+            </GridPane>
+         </children>
+      </StackPane>
+      <StackPane layoutX="98.0" layoutY="461.0" maxHeight="80.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: trasnparent;" stylesheets="@../../../css/funndoback.css" AnchorPane.bottomAnchor="-10.0" AnchorPane.leftAnchor="-8.0" AnchorPane.rightAnchor="-8.0">
+         <children>
+            <Label id="time" fx:id="time" text="12:13:00 PM" />
+         </children>
+      </StackPane>
+      <Separator layoutX="88.0" layoutY="29.0" prefWidth="200.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+   </children>
+   <stylesheets>
+      <URL value="@../../../css/styleModel_1.css" />
+      <URL value="@../../../css/pagInicial.css" />
+      <URL value="@../../../css/funndoback.css" />
+   </stylesheets>
+</AnchorPane>
